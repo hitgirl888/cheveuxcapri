@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viiewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Bonjour! CapriDoll!</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        h1 {
+            color: pink;
+            font-size: 48px;
+            font-family: "josefin", Times, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 25vh;
+            margin: 0;
+            position: relative;
+            text-decoration: underline; /*Add underline*/
+        }
+
+        h1::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.6); /*Opaque area color*/
+            z-index: -1;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            font-family: Georgia, serif;
+        }
+
+        body {
+            background-color: #C8A2C8; /* Lilac Purple */
+            background-image: url("coverpage.png"); /* Add background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: center;    
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .nav-links a {
+            margin: 0 10px;
+            font-family: Georgia, serif;
+            color: #000;
+            text-decoration: underline; /* Add underline */
+        }
+
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+
+    <link rel="icon" type="image/svg" href="">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to CheveuxCapri</h1>
+    <div class="nav-links">
+        <a href="CHEVEUXCAPRI.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="policy.html">Policy</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+
+
+    <footer>
+        <p> &copy; 2022 Abigail Ampong. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
